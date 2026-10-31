@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Иван Комиссаров, резюме</title>
+<style>
+:root { --bg:#fff; --ink:#1a1a1a; --muted:#555; --line:#e5e5e5; --accent:#2f5bea; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#141414; --ink:#eee; --muted:#aaa; --line:#333; } }
+:root[data-theme="dark"] { --bg:#141414; --ink:#eee; --muted:#aaa; --line:#333; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { background:var(--bg); color:var(--ink); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; }
+header { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:14px 16px; border-bottom:1px solid var(--line); }
+header h1 { font-size:16px; font-weight:600; }
+header span { color:var(--muted); font-size:13px; }
+a.btn { background:var(--accent); color:#fff; text-decoration:none; padding:8px 14px; border-radius:6px; font-size:14px; white-space:nowrap; }
+main { height: calc(100vh - 57px); }
+iframe { width:100%; height:100%; border:0; }
+.fallback { padding:24px 16px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div><h1>Иван Комиссаров</h1><span>Backend-разработчик: PHP, Go</span></div>
+</header>
+<main>
+  <iframe src="Komissarov_Ivan_CV.pdf" title="Резюме"></iframe>
+  </main>
+</body>
+</html>
